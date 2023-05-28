@@ -11,7 +11,7 @@ function SelectionBar() {
             onClick={() => setCurrentPhoto(photo)}
             className='cursor-pointer h-12 w-12 rounded'
             src={photo.thumbnailUrl}
-            alt={photo.thumbnailUrl}
+            alt={photo.title}
             key={photo.id}
           />
         );
