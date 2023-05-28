@@ -1,0 +1,10 @@
+/* @import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+@import "~react-image-gallery/styles/css/image-gallery.css"; */
+.no-scroll {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scroll::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
